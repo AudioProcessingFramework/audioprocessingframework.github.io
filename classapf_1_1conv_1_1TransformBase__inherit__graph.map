@@ -1,0 +1,6 @@
+<map id="apf::conv::TransformBase" name="apf::conv::TransformBase">
+<area shape="rect" id="node2" href="$structapf_1_1conv_1_1Input.html" title="Input stage of convolution. " alt="" coords="112,80,225,107"/>
+<area shape="rect" id="node5" href="$structapf_1_1conv_1_1Transform.html" title="Helper class to prepare filters. " alt="" coords="249,80,392,107"/>
+<area shape="rect" id="node3" href="$structapf_1_1conv_1_1Convolver.html" title="Combination of Input and Output. " alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node4" href="$structapf_1_1conv_1_1StaticConvolver.html" title="Combination of Input and StaticOutput. " alt="" coords="172,155,349,181"/>
+</map>

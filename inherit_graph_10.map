@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classapf_1_1CRTP.html" title="apf::CRTP\&lt; CombineChannels\lCopy\&lt; L, Out \&gt; \&gt;" alt="" coords="5,13,209,54"/>
+<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="apf::CombineChannelsBase\l\&lt; CombineChannelsCopy\&lt;\l L, Out \&gt;, L, Out \&gt;" alt="" coords="257,5,443,61"/>
+<area shape="rect" id="node3" href="$classapf_1_1CombineChannelsCopy.html" title="Combine channels: accumulate. " alt="" coords="491,13,677,54"/>
+</map>

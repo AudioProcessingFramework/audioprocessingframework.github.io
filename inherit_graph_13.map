@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classapf_1_1CRTP.html" title="apf::CRTP\&lt; CombineChannels\lInterpolation\&lt; L, Out \&gt; \&gt;" alt="" coords="5,13,209,54"/>
+<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="apf::CombineChannelsBase\l\&lt; CombineChannelsInterpolation\l\&lt; L, Out \&gt;, L, Out \&gt;" alt="" coords="257,5,469,61"/>
+<area shape="rect" id="node3" href="$classapf_1_1CombineChannelsInterpolation.html" title="Combine channels: interpolate and accumulate. " alt="" coords="517,13,744,54"/>
+</map>
