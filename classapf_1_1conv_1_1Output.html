@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -159,7 +159,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>filter_ptrs_t</b> = 
 <div class="textblock"><p>Convolution engine (output part). </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="structapf_1_1conv_1_1Input.html" title="Input stage of convolution. ">Input</a>, <a class="el" href="classapf_1_1conv_1_1StaticOutput.html" title="Convolver output stage with static filter. ">StaticOutput</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="convolver_8h_source.html#l00624">624</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
+<p>Definition at line <a class="el" href="convolver_8h_source.html#l00634">634</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="afda2d736d2656e2e4503ffd2f70434f2"></a>
 <div class="memitem">
@@ -183,7 +183,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>filter_ptrs_t</b> = 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="convolver_8h_source.html#l00649">649</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
+<p>Definition at line <a class="el" href="convolver_8h_source.html#l00659">659</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
 
 </div>
 </div>
@@ -203,7 +203,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>filter_ptrs_t</b> = 
 <p>Check if there are still valid partitions in the queues. </p>
 <p>If this function returns <b>false</b>, <a class="el" href="classapf_1_1conv_1_1Output.html#a71d89729c68bac25467acc1b7147bdc5" title="Update filter queues. ">rotate_queues()</a> should be called. </p><dl class="section note"><dt>Note</dt><dd>This is important for crossfades: even if <a class="el" href="classapf_1_1conv_1_1Output.html#afda2d736d2656e2e4503ffd2f70434f2" title="Set a new filter. ">set_filter()</a> wasn't used, older partitions may still change! If the queues are empty, no crossfade is necessary (except <code>weight</code> was changed in <a class="el" href="classapf_1_1conv_1_1OutputBase.html#ac7f8182b59eb001dc4bf2fcd162c114f" title="Fast convolution of one audio block. ">convolve()</a>). </dd></dl>
 
-<p>Definition at line <a class="el" href="convolver_8h_source.html#l00673">673</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
+<p>Definition at line <a class="el" href="convolver_8h_source.html#l00683">683</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
 
 </div>
 </div>
@@ -223,7 +223,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>filter_ptrs_t</b> = 
 <p>Update filter queues. </p>
 <p>If <a class="el" href="classapf_1_1conv_1_1Output.html#a68f4a8460c24e6a8f3d109b41f37ed0a" title="Check if there are still valid partitions in the queues. ">queues_empty()</a> returns <b>true</b>, calling this function is unnecessary. </p><dl class="section note"><dt>Note</dt><dd>This can lead to artifacts, so a crossfade is recommended. </dd></dl>
 
-<p>Definition at line <a class="el" href="convolver_8h_source.html#l00690">690</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
+<p>Definition at line <a class="el" href="convolver_8h_source.html#l00700">700</a> of file <a class="el" href="convolver_8h_source.html">convolver.h</a>.</p>
 
 </div>
 </div>

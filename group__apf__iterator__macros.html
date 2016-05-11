@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -256,7 +256,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00075">75</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00078">78</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -283,7 +283,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  base_iterator_type base()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return (base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  base_iterator_type base()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return (base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Get the base iterator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -294,9 +294,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00086">86</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00089">89</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  reference operator*()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return *(base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  reference operator*()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return *(base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward dereference operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -323,7 +323,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00096">96</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00099">99</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +340,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator++() { assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    ++(base_member); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator++() { assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    ++(base_member); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward preincrement operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -350,7 +350,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00104">104</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00107">107</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self operator++(<span class="keywordtype">int</span>) { <span class="keyword">self</span> tmp = *<span class="keyword">this</span>; ++(*this); <span class="keywordflow">return</span> tmp; }</div></div><!-- fragment -->
 <p>Postincrement operator (using preincrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00111">111</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00114">114</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +388,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00120">120</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00123">123</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  pointer operator-&gt;()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return (base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  pointer operator-&gt;()<span class="keyword"> const </span>{ assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    return (base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward arrow operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -415,7 +415,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00125">125</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00128">128</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00133">133</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00136">136</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00141">141</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00144">144</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ Macros</h2></td></tr>
 
 <p>Postincrement operator (using preincrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00145">145</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00148">148</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +495,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  bool operator!=(<span class="keyword">const</span> <span class="keyword">self</span>&amp; rhs)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> !operator==(rhs); } \</div></div><!-- fragment -->
 <p>Unequality operator (using equality operator) </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00149">149</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00152">152</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +517,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00158">158</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00161">161</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -539,7 +539,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00162">162</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00165">165</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -561,7 +561,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00166">166</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00169">169</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00170">170</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00173">173</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -599,7 +599,7 @@ Macros</h2></td></tr>
 
 <p>Postincrement operator (using preincrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00174">174</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00177">177</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ Macros</h2></td></tr>
 
 <p>Unequality operator (using equality operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00177">177</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00180">180</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -637,7 +637,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00184">184</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00187">187</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -659,7 +659,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00188">188</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00191">191</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00192">192</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00195">195</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -703,7 +703,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00196">196</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00199">199</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator--() { assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    --(base_member); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator--() { assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    --(base_member); <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward predecrement operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -730,7 +730,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00201">201</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00204">204</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Macros</h2></td></tr>
 
 <p>Postincrement operator (using preincrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00208">208</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00211">211</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -762,7 +762,7 @@ Macros</h2></td></tr>
 
 <p>Unequality operator (using equality operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00211">211</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00214">214</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -778,7 +778,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self operator--(<span class="keywordtype">int</span>) { <span class="keyword">self</span> tmp = *<span class="keyword">this</span>; --(*this); <span class="keywordflow">return</span> tmp; }</div></div><!-- fragment -->
 <p>Postdecrement operator (using predecrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00215">215</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00218">218</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -800,9 +800,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00224">224</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00227">227</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -824,7 +824,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00228">228</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00231">231</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00232">232</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00235">235</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -868,9 +868,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00236">236</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00239">239</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -892,9 +892,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00240">240</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00243">243</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -911,7 +911,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator+=(difference_type n) { \</div><div class="line">    assert(!n || <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    (base_member) += n; <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  self&amp; operator+=(difference_type n) { \</div><div class="line">    assert(!n || <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(base_member)); \</div><div class="line">    (base_member) += n; <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward addition/assignment operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -921,9 +921,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00245">245</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00248">248</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  friend difference_type operator-(<span class="keyword">const</span> <span class="keyword">self</span>&amp; lhs, <span class="keyword">const</span> <span class="keyword">self</span>&amp; rhs) { \</div><div class="line">    assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(lhs.base_member) \</div><div class="line">        &amp;&amp; <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(rhs.base_member)); \</div><div class="line">    return ((lhs.base_member) - (rhs.base_member)); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  friend difference_type operator-(<span class="keyword">const</span> <span class="keyword">self</span>&amp; lhs, <span class="keyword">const</span> <span class="keyword">self</span>&amp; rhs) { \</div><div class="line">    assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(lhs.base_member) \</div><div class="line">        &amp;&amp; <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(rhs.base_member)); \</div><div class="line">    return ((lhs.base_member) - (rhs.base_member)); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward difference operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -950,9 +950,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00254">254</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00257">257</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -968,9 +968,9 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  reference operator[](difference_type n)<span class="keyword"> const </span>{ \</div><div class="line">    return *(*<span class="keyword">this</span> + n); }</div></div><!-- fragment -->
 <p>Straightforward subscript operator (using + and dereference operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00263">263</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00266">266</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -987,7 +987,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  friend <span class="keywordtype">bool</span> operator&lt;(<span class="keyword">const</span> <span class="keyword">self</span>&amp; lhs, <span class="keyword">const</span> <span class="keyword">self</span>&amp; rhs) { \</div><div class="line">    assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(lhs.base_member) \</div><div class="line">        &amp;&amp; <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(rhs.base_member)); \</div><div class="line">    return (lhs.base_member) &lt; (rhs.base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00061">iterator.h:61</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> \</div><div class="line">  friend <span class="keywordtype">bool</span> operator&lt;(<span class="keyword">const</span> <span class="keyword">self</span>&amp; lhs, <span class="keyword">const</span> <span class="keyword">self</span>&amp; rhs) { \</div><div class="line">    assert(<a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(lhs.base_member) \</div><div class="line">        &amp;&amp; <a class="code" href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a>(rhs.base_member)); \</div><div class="line">    return (lhs.base_member) &lt; (rhs.base_member); }</div><div class="ttc" id="namespaceapf_html_a773ecea426d4e63c45a1ea9e4004e4ab"><div class="ttname"><a href="namespaceapf.html#a773ecea426d4e63c45a1ea9e4004e4ab">apf::no_nullptr</a></div><div class="ttdeci">bool no_nullptr(T *in)</div><div class="ttdoc">Check for null-pointer. </div><div class="ttdef"><b>Definition:</b> <a href="iterator_8h_source.html#l00064">iterator.h:64</a></div></div>
 </div><!-- fragment -->
 <p>Straightforward less-than operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -997,9 +997,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00271">271</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00274">274</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -1021,9 +1021,9 @@ Macros</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00281">281</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00284">284</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -1040,9 +1040,9 @@ Macros</h2></td></tr>
 <p>Other comparisons (&gt;, &lt;=, &gt;=). </p>
 <p>All are using the less-than operator. </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00286">286</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00289">289</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -1058,9 +1058,9 @@ Macros</h2></td></tr>
 
 <p>Postincrement operator (using preincrement operator). </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00299">299</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00302">302</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -1076,9 +1076,9 @@ Macros</h2></td></tr>
 
 <p>Postdecrement operator (using predecrement operator) </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00303">303</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00306">306</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -1100,9 +1100,9 @@ Macros</h2></td></tr>
 <li>Subtraction operator (using +=) </li>
 </ul>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00311">311</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00314">314</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="container_8h_source.html#l00472">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00546">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
+<p>Referenced by <a class="el" href="container_8h_source.html#l00475">apf::fixed_matrix&lt; T, Allocator &gt;::channels_iterator::operator-&gt;()</a>, and <a class="el" href="container_8h_source.html#l00550">apf::fixed_matrix&lt; T, Allocator &gt;::slices_iterator::operator-&gt;()</a>.</p>
 
 </div>
 </div>

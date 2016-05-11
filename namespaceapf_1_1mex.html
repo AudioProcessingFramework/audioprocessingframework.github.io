@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -168,9 +168,9 @@ Functions</h2></td></tr>
 
 <p>Convert <code>mxArray</code> to <code>std::string</code>. </p>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00109">109</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00112">112</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>Referenced by <a class="el" href="mextools_8h_source.html#l00165">convert()</a>.</p>
+<p>Referenced by <a class="el" href="mextools_8h_source.html#l00168">convert()</a>.</p>
 
 </div>
 </div>
@@ -200,7 +200,7 @@ Functions</h2></td></tr>
 
 <p>Convert <code>mxArray</code> to <code>double</code>. </p>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00121">121</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00124">124</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -230,7 +230,7 @@ Functions</h2></td></tr>
 
 <p>Convert <code>mxArray</code> to <code>int</code>. </p>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00130">130</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00133">133</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
 
 <p>Convert <code>mxArray</code> to <code>bool</code>. </p>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00141">141</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00144">144</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -290,7 +290,7 @@ Functions</h2></td></tr>
 
 <p>Convert <code>mxArray</code> to <code>size_t</code>. </p>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00150">150</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00153">153</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -321,9 +321,9 @@ Functions</h2></td></tr>
 <p>Convert <code>mxArray</code> to a <code>std::map</code> of <code>std::strings</code>. </p>
 <p>This expects a scalar structure! Values must be real scalar numbers or strings! </p><dl class="section warning"><dt>Warning</dt><dd>In case of a conversion error, the map may be partially filled! </dd></dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00165">165</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00168">168</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>References <a class="el" href="stringtools_8h_source.html#l00049">apf::str::A2S()</a>, and <a class="el" href="mextools_8h_source.html#l00109">convert()</a>.</p>
+<p>References <a class="el" href="stringtools_8h_source.html#l00052">apf::str::A2S()</a>, and <a class="el" href="mextools_8h_source.html#l00112">convert()</a>.</p>
 
 </div>
 </div>
@@ -354,9 +354,9 @@ Functions</h2></td></tr>
 <p>Convert <code>mxArray</code> to a <code>std::vector</code> of <code>std::strings</code>. </p>
 <p>This expects a cell array of strings! </p><dl class="section warning"><dt>Warning</dt><dd>In case of a conversion error, the vector may be partly filled! </dd></dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00203">203</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00206">206</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>References <a class="el" href="mextools_8h_source.html#l00109">convert()</a>.</p>
+<p>References <a class="el" href="mextools_8h_source.html#l00112">convert()</a>.</p>
 
 </div>
 </div>
@@ -404,9 +404,9 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> if argument was available and if conversion was successful </dd></dl>
 <dl class="section post"><dt>Postcondition</dt><dd>If conversion was successful, <code>n</code> is decremented and <code>p</code> is incremented. If not, <code>n</code> and <code>p</code> are unchanged, <code>data</code> may be corrupted. </dd></dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00251">251</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00254">254</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>Referenced by <a class="el" href="mextools_8h_source.html#l00276">next_arg()</a>.</p>
+<p>Referenced by <a class="el" href="mextools_8h_source.html#l00279">next_arg()</a>.</p>
 
 </div>
 </div>
@@ -453,9 +453,9 @@ template&lt;typename T &gt; </div>
 <dl class="section post"><dt>Postcondition</dt><dd>If an argument was available and its conversion was successful, the result is stored in <code>data</code>, <code>n</code> is decremented and <code>p</code> is incremented. If the conversion failed, <code>n</code> and <code>p</code> are unchanged, <code>data</code> may be corrupted. If there was no argument available, <code>n</code>, <code>p</code> and <code>data</code> are unchanged. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceapf_1_1mex.html#a068446f2184a15f56190a19940764c13" title="Get next argument, converted to T. ">next_arg()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00267">267</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00270">270</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>Referenced by <a class="el" href="mextools_8h_source.html#l00285">next_optarg()</a>.</p>
+<p>Referenced by <a class="el" href="mextools_8h_source.html#l00288">next_optarg()</a>.</p>
 
 </div>
 </div>
@@ -506,9 +506,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00276">276</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00279">279</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>References <a class="el" href="mextools_8h_source.html#l00251">next_arg()</a>.</p>
+<p>References <a class="el" href="mextools_8h_source.html#l00254">next_arg()</a>.</p>
 
 </div>
 </div>
@@ -559,9 +559,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00285">285</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00288">288</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
-<p>References <a class="el" href="mextools_8h_source.html#l00267">next_optarg()</a>.</p>
+<p>References <a class="el" href="mextools_8h_source.html#l00270">next_optarg()</a>.</p>
 
 </div>
 </div>

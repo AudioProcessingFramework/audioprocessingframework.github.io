@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -113,21 +113,21 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>sample_type</b> = T<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a975fdbac0e1a67cb0100cb2421bb6ba1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapf_1_1pointer__policy_3_01T_01_5_01_4.html#a975fdbac0e1a67cb0100cb2421bb6ba1">audio_callback</a> (int n, T *const *in, T *const *out)</td></tr>
-<tr class="memdesc:a975fdbac0e1a67cb0100cb2421bb6ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This has to be called for each audio block.  <a href="#a975fdbac0e1a67cb0100cb2421bb6ba1">More...</a><br /></td></tr>
-<tr class="separator:a975fdbac0e1a67cb0100cb2421bb6ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9dff3077c8261dcdad6878994d61b3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classapf_1_1pointer__policy_3_01T_01_5_01_4.html#ad9dff3077c8261dcdad6878994d61b3e">audio_callback</a> (size_t n, T *const *in, T *const *out)</td></tr>
+<tr class="memdesc:ad9dff3077c8261dcdad6878994d61b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This has to be called for each audio block.  <a href="#ad9dff3077c8261dcdad6878994d61b3e">More...</a><br /></td></tr>
+<tr class="separator:ad9dff3077c8261dcdad6878994d61b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a534306432125ce0fb399b35c6c79ffd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a534306432125ce0fb399b35c6c79ffd5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>activate</b> () const </td></tr>
 <tr class="separator:a534306432125ce0fb399b35c6c79ffd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307cd12d35aeac051dcccef9004e3f84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a307cd12d35aeac051dcccef9004e3f84"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>deactivate</b> () const </td></tr>
 <tr class="separator:a307cd12d35aeac051dcccef9004e3f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08cd3d23880e3a90ab838acfae2e89d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08cd3d23880e3a90ab838acfae2e89d6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>block_size</b> () const </td></tr>
-<tr class="separator:a08cd3d23880e3a90ab838acfae2e89d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4accd6d3f569420414a12cbea5a4bb07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4accd6d3f569420414a12cbea5a4bb07"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b> () const </td></tr>
-<tr class="separator:a4accd6d3f569420414a12cbea5a4bb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a53b9391ed2dab16db5eae0c1a6b847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a53b9391ed2dab16db5eae0c1a6b847"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>block_size</b> () const </td></tr>
+<tr class="separator:a2a53b9391ed2dab16db5eae0c1a6b847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5348a898c2595a161e5be51426d4843f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5348a898c2595a161e5be51426d4843f"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>sample_rate</b> () const </td></tr>
+<tr class="separator:a5348a898c2595a161e5be51426d4843f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac29bbd2d8f0dcae9e3cb9763f5a666ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac29bbd2d8f0dcae9e3cb9763f5a666ff"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>in_channels</b> () const </td></tr>
 <tr class="separator:ac29bbd2d8f0dcae9e3cb9763f5a666ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +148,9 @@ class apf::pointer_policy&lt; T * &gt;</h3>
 <p><code>interface_policy</code> which uses plain pointers. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1MimoProcessor.html" title="Multi-threaded multiple-input-multiple-output (MIMO) processor. ">MimoProcessor</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="pointer__policy_8h_source.html#l00050">50</a> of file <a class="el" href="pointer__policy_8h_source.html">pointer_policy.h</a>.</p>
+<p>Definition at line <a class="el" href="pointer__policy_8h_source.html#l00053">53</a> of file <a class="el" href="pointer__policy_8h_source.html">pointer_policy.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a975fdbac0e1a67cb0100cb2421bb6ba1"></a>
+<a class="anchor" id="ad9dff3077c8261dcdad6878994d61b3e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -159,7 +159,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void apf::pointer_policy&lt; T * &gt;::audio_callback </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
@@ -194,7 +194,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="pointer__policy_8h_source.html#l00114">114</a> of file <a class="el" href="pointer__policy_8h_source.html">pointer_policy.h</a>.</p>
+<p>Definition at line <a class="el" href="pointer__policy_8h_source.html#l00117">117</a> of file <a class="el" href="pointer__policy_8h_source.html">pointer_policy.h</a>.</p>
 
 </div>
 </div>

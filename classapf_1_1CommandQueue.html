@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 <p>Commands can be added in the non-realtime thread with <a class="el" href="classapf_1_1CommandQueue.html#a92b0905481ebf76fa36f397ed75bca3a" title="Push a command to be executed in the realtime thread. ">push()</a>.</p>
 <p>Commands are executed when <a class="el" href="classapf_1_1CommandQueue.html#a23b7d6c38defaa954f1b8351158b9de4" title="Execute all commands in the queue. ">process_commands()</a> is called from the realtime thread. </p>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00044">44</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00047">47</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab7b9f265d73394689c9b49a2af1c3041"></a>
 <div class="memitem">
@@ -191,7 +191,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00084">84</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00087">87</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
 </div>
 </div>
@@ -219,9 +219,9 @@ Public Member Functions</h2></td></tr>
 <p>Destructor. </p>
 <dl class="section attention"><dt>Attention</dt><dd>Commands in the cleanup queue are cleaned up, but commands in the process queue are ignored and their memory is not freed! </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00093">93</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00096">96</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>References <a class="el" href="commandqueue_8h_source.html#l00106">cleanup_commands()</a>, <a class="el" href="commandqueue_8h_source.html#l00188">push()</a>, and <a class="el" href="commandqueue_8h_source.html#l00215">wait()</a>.</p>
+<p>References <a class="el" href="commandqueue_8h_source.html#l00109">cleanup_commands()</a>, <a class="el" href="commandqueue_8h_source.html#l00191">push()</a>, and <a class="el" href="commandqueue_8h_source.html#l00218">wait()</a>.</p>
 
 </div>
 </div>
@@ -256,11 +256,11 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00188">188</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00191">191</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>References <a class="el" href="commandqueue_8h_source.html#l00106">cleanup_commands()</a>, and <a class="el" href="structapf_1_1CommandQueue_1_1Command.html#a49a784a8d8d88103d66e4bfe0df02202">apf::CommandQueue::Command::execute()</a>.</p>
+<p>References <a class="el" href="commandqueue_8h_source.html#l00109">cleanup_commands()</a>, and <a class="el" href="structapf_1_1CommandQueue_1_1Command.html#a49a784a8d8d88103d66e4bfe0df02202">apf::CommandQueue::Command::execute()</a>.</p>
 
-<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00215">wait()</a>, and <a class="el" href="commandqueue_8h_source.html#l00093">~CommandQueue()</a>.</p>
+<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00218">wait()</a>, and <a class="el" href="commandqueue_8h_source.html#l00096">~CommandQueue()</a>.</p>
 
 </div>
 </div>
@@ -288,11 +288,11 @@ Public Member Functions</h2></td></tr>
 <p>Wait for realtime thread. </p>
 <p>Push an empty command and wait for its return. </p>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00215">215</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00218">218</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>References <a class="el" href="commandqueue_8h_source.html#l00106">cleanup_commands()</a>, and <a class="el" href="commandqueue_8h_source.html#l00188">push()</a>.</p>
+<p>References <a class="el" href="commandqueue_8h_source.html#l00109">cleanup_commands()</a>, and <a class="el" href="commandqueue_8h_source.html#l00191">push()</a>.</p>
 
-<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00093">~CommandQueue()</a>.</p>
+<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00096">~CommandQueue()</a>.</p>
 
 </div>
 </div>
@@ -320,9 +320,9 @@ Public Member Functions</h2></td></tr>
 <p>Clean up all commands in the cleanup-queue. </p>
 <dl class="section note"><dt>Note</dt><dd>This function must be called from the non-realtime thread. </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00106">106</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00109">109</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00117">deactivate()</a>, <a class="el" href="commandqueue_8h_source.html#l00188">push()</a>, <a class="el" href="commandqueue_8h_source.html#l00125">reactivate()</a>, <a class="el" href="commandqueue_8h_source.html#l00215">wait()</a>, and <a class="el" href="commandqueue_8h_source.html#l00093">~CommandQueue()</a>.</p>
+<p>Referenced by <a class="el" href="commandqueue_8h_source.html#l00120">deactivate()</a>, <a class="el" href="commandqueue_8h_source.html#l00191">push()</a>, <a class="el" href="commandqueue_8h_source.html#l00128">reactivate()</a>, <a class="el" href="commandqueue_8h_source.html#l00218">wait()</a>, and <a class="el" href="commandqueue_8h_source.html#l00096">~CommandQueue()</a>.</p>
 
 </div>
 </div>
@@ -351,11 +351,11 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> on success </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The queue must be empty. If not, the queue is <em>not</em> deactivated and <b>false</b> is returned. </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00117">117</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00120">120</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>References <a class="el" href="commandqueue_8h_source.html#l00106">cleanup_commands()</a>.</p>
+<p>References <a class="el" href="commandqueue_8h_source.html#l00109">cleanup_commands()</a>.</p>
 
-<p>Referenced by <a class="el" href="mimoprocessor_8h_source.html#l00396">apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::MimoProcessor()</a>.</p>
+<p>Referenced by <a class="el" href="mimoprocessor_8h_source.html#l00399">apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::MimoProcessor()</a>.</p>
 
 </div>
 </div>
@@ -383,9 +383,9 @@ Public Member Functions</h2></td></tr>
 <p>Re-activate queue. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1CommandQueue.html#a30768993e12bf22e2b951bad51565844" title="Deactivate queue; process following commands in the non-realtime thread. ">deactivate()</a>. </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00125">125</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00128">128</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
-<p>References <a class="el" href="commandqueue_8h_source.html#l00106">cleanup_commands()</a>.</p>
+<p>References <a class="el" href="commandqueue_8h_source.html#l00109">cleanup_commands()</a>.</p>
 
 </div>
 </div>
@@ -413,11 +413,11 @@ Public Member Functions</h2></td></tr>
 <p>Execute all commands in the queue. </p>
 <p>After execution, the commands are queued for cleanup in the non-realtime thread. </p><dl class="section note"><dt>Note</dt><dd>This function must be called from the realtime thread. </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00141">141</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00144">144</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
 <p>References <a class="el" href="structapf_1_1CommandQueue_1_1Command.html#a49a784a8d8d88103d66e4bfe0df02202">apf::CommandQueue::Command::execute()</a>.</p>
 
-<p>Referenced by <a class="el" href="mimoprocessor_8h_source.html#l00298">apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::~MimoProcessor()</a>.</p>
+<p>Referenced by <a class="el" href="mimoprocessor_8h_source.html#l00301">apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::~MimoProcessor()</a>.</p>
 
 </div>
 </div>
@@ -445,7 +445,7 @@ Public Member Functions</h2></td></tr>
 <p>Check if commands are available. </p>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> if commands are available. </dd></dl>
 
-<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00157">157</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
+<p>Definition at line <a class="el" href="commandqueue_8h_source.html#l00160">160</a> of file <a class="el" href="commandqueue_8h_source.html">commandqueue.h</a>.</p>
 
 <p>References <a class="el" href="structapf_1_1CommandQueue_1_1Command.html#a1ee49326e9dc188adc84688203c42954">apf::CommandQueue::Command::cleanup()</a>.</p>
 

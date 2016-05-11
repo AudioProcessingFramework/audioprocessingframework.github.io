@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -166,7 +166,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"> \ \</div><div class="line">template&lt;&gt; \</div><div class="line">struct fftw&lt;longtype&gt; { \</div><div class="line">  using plan = fftw ## shorttype ## plan; \</div><div class="line">  static <span class="keywordtype">void</span>* malloc(<span class="keywordtype">size_t</span> n) { <span class="keywordflow">return</span> fftw ## shorttype ## malloc(n); } \</div><div class="line">  static <span class="keywordtype">void</span> free(<span class="keywordtype">void</span>* p) { fftw ## shorttype ## free(p); } \</div><div class="line">  static <span class="keywordtype">void</span> destroy_plan(plan p) { \</div><div class="line">    fftw ## shorttype ## destroy_plan(p); p = <span class="keyword">nullptr</span>; } \</div><div class="line">  static <span class="keywordtype">void</span> execute(<span class="keyword">const</span> plan p) { fftw ## shorttype ## execute(p); } \</div><div class="line">  static <span class="keywordtype">void</span> execute_r2r(<span class="keyword">const</span> plan p, longtype *in, longtype *out) { \</div><div class="line">    fftw ## shorttype ## execute_r2r(p, in, out); } \</div><div class="line">  static plan plan_r2r_1d(<span class="keywordtype">int</span> n, longtype* in, longtype* out \</div><div class="line">      , fftw_r2r_kind kind, <span class="keywordtype">unsigned</span> flags) { \</div><div class="line">    return fftw ## shorttype ## plan_r2r_1d(n, in, out, kind, flags); } \</div><div class="line">  class scoped_plan { \</div><div class="line">    public: \</div><div class="line">      template&lt;typename Func, typename... Args&gt; \</div><div class="line">      scoped_plan(Func func, Args... args) \</div><div class="line">        : _plan(func(std::forward&lt;Args&gt;(args)...)), _owning(<span class="keyword">true</span>) {} \</div><div class="line">      scoped_plan(scoped_plan&amp;&amp; other) \</div><div class="line">        : _plan(std::move(other._plan)), _owning(<span class="keyword">true</span>) { \</div><div class="line">        other._owning = <span class="keyword">false</span>; } \</div><div class="line">      ~scoped_plan() { <span class="keywordflow">if</span> (_owning) destroy_plan(_plan); } \</div><div class="line">      operator <span class="keyword">const</span> plan&amp;() { <span class="keywordflow">return</span> _plan; } \</div><div class="line">    private: \</div><div class="line">      plan _plan; <span class="keywordtype">bool</span> _owning; }; \</div><div class="line">};</div></div><!-- fragment -->
 <p>Macro to create traits classes for float/double/long double. </p>
 
-<p>Definition at line <a class="el" href="fftwtools_8h_source.html#l00044">44</a> of file <a class="el" href="fftwtools_8h_source.html">fftwtools.h</a>.</p>
+<p>Definition at line <a class="el" href="fftwtools_8h_source.html#l00047">47</a> of file <a class="el" href="fftwtools_8h_source.html">fftwtools.h</a>.</p>
 
 </div>
 </div>

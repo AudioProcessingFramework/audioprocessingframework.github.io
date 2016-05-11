@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -245,7 +245,7 @@ class apf::fixed_matrix&lt; T, Allocator &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00338">338</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00341">341</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aed69333f49accd96b765db7c8c91b262"></a>
 <div class="memitem">
@@ -261,7 +261,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Proxy class for returning one channel of the <a class="el" href="classapf_1_1fixed__matrix.html" title="Two-dimensional data storage for row- and column-wise access. ">fixed_matrix</a>. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00348">348</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00351">351</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -279,7 +279,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Iterator within a Channel. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00350">350</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00353">353</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -297,7 +297,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Proxy class for returning one slice of the <a class="el" href="classapf_1_1fixed__matrix.html" title="Two-dimensional data storage for row- and column-wise access. ">fixed_matrix</a>. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00353">353</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00356">356</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Iterator within a Slice. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00355">355</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00358">358</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -347,7 +347,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 <p>Default constructor. </p>
 <p>Only <a class="el" href="classapf_1_1fixed__matrix.html#a90cb6d80f3f483560a75ececc824c1d8" title="Allocate memory for max_channels x max_slices elements and default-construct them. ">initialize()</a> makes sense after this. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00362">362</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00365">365</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -401,7 +401,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00378">378</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00381">381</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -443,7 +443,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 <p>Allocate memory for <code>max_channels</code> x <code>max_slices</code> elements and default-construct them. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>empty() == true </dd></dl>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00388">388</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00391">391</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -478,7 +478,9 @@ Anyway, a plain copy of a <a class="el" href="classapf_1_1fixed__matrix.html" ti
 <dl class="section pre"><dt>Precondition</dt><dd>The dimensions must be correct beforehand! </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>If the dimensions are not correct, bad things will happen! </dd></dl>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00585">585</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00589">589</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+
+<p>Referenced by <a class="el" href="mimoprocessor__file__io_8h_source.html#l00044">apf::mimoprocessor_file_io()</a>.</p>
 
 </div>
 </div>
@@ -508,7 +510,9 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 <p>Get array of pointers to the channels. </p>
 <p>This can be useful to interact with functions which use plain pointers instead of iterators. </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00410">410</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00413">413</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+
+<p>Referenced by <a class="el" href="mimoprocessor__file__io_8h_source.html#l00044">apf::mimoprocessor_file_io()</a>.</p>
 
 </div>
 </div>
@@ -527,7 +531,7 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Access to Channels; use channels.begin() and channels.end() </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00413">413</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00416">416</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
 
 </div>
 </div>
@@ -545,7 +549,9 @@ template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 
 <p>Access to Slices; use slices.begin() and slices.end() </p>
 
-<p>Definition at line <a class="el" href="container_8h_source.html#l00415">415</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+<p>Definition at line <a class="el" href="container_8h_source.html#l00418">418</a> of file <a class="el" href="container_8h_source.html">container.h</a>.</p>
+
+<p>Referenced by <a class="el" href="mimoprocessor__file__io_8h_source.html#l00044">apf::mimoprocessor_file_io()</a>.</p>
 
 </div>
 </div>

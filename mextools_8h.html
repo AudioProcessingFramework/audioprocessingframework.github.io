@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -202,7 +202,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)plhs; \</div><div class="line">if (nlhs &gt; 0) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;No output parameters are supported for &quot;</span> \</div><div class="line">      + std::string(name) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00038">38</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00041">41</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)plhs; \</div><div class="line">if (nlhs != 1) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;Exactly one output parameter is supported for &quot;</span> \</div><div class="line">      + std::string(name) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00045">45</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00048">48</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)plhs; \</div><div class="line">if (nlhs &gt; 1) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;No more than one output parameter is supported for &quot;</span> \</div><div class="line">      + std::string(name) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00052">52</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00055">55</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -256,7 +256,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">if (nrhs &gt; 0) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;No further input parameters are supported for &quot;</span> \</div><div class="line">      + std::string(name) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00059">59</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00062">62</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +274,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">if (nrhs &lt; 1) { \</div><div class="line">  std::string msg(std::string(text) + <span class="stringliteral">&quot; needs a further input parameter!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00066">66</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00069">69</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">if (!mxIsNumeric(prhs[0])) { \</div><div class="line">  std::string msg(std::string(text) + <span class="stringliteral">&quot; must be a numeric matrix!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00072">72</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00075">75</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +310,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">APF_MEX_ERROR_NUMERIC_INPUT(text); \</div><div class="line">if (mxIsComplex(prhs[0])) { \</div><div class="line">  std::string msg(std::string(text) + <span class="stringliteral">&quot; must not be complex!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00078">78</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00081">81</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +338,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">if (static_cast&lt;mwSize&gt;(mxGetM(prhs[0])) != (value)) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;Number of rows must be the same &quot;</span> \</div><div class="line">      + std::string(text) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00085">85</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00088">88</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ template&lt;bool optional, typename T &gt; </td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(void)prhs; \</div><div class="line">if (static_cast&lt;mwSize&gt;(mxGetN(prhs[0])) != (value)) { \</div><div class="line">  std::string msg(<span class="stringliteral">&quot;Number of columns must be the same &quot;</span> \</div><div class="line">      + std::string(text) + <span class="stringliteral">&quot;!&quot;</span>); \</div><div class="line">  mexErrMsgTxt(msg.c_str()); }</div></div><!-- fragment -->
-<p>Definition at line <a class="el" href="mextools_8h_source.html#l00092">92</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
+<p>Definition at line <a class="el" href="mextools_8h_source.html#l00095">95</a> of file <a class="el" href="mextools_8h_source.html">mextools.h</a>.</p>
 
 </div>
 </div>

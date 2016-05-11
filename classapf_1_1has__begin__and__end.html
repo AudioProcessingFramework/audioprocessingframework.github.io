@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -155,7 +155,7 @@ class apf::has_begin_and_end&lt; I &gt;</h3>
 <p>Convenience class providing <a class="el" href="classapf_1_1has__begin__and__end.html#a6ca4e84ca37ac6a176ee3b8eb286552d" title="Get begin. ">begin()</a> and <a class="el" href="classapf_1_1has__begin__and__end.html#a0e5f5874288e20bcac16ea3275dbbcb8" title="Get end. ">end()</a>. </p>
 <p>The derived class can manipulate the protected members _begin and _end. </p><dl class="section warning"><dt>Warning</dt><dd>If you use this as base class, don't use a base class pointer (or reference). This class has a public non-virtual destructor, which is generally <b>not</b> recommended for base classes. </dd></dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00331">331</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00334">334</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa8eb442ba8218765ca830d14d225f43c"></a>
 <div class="memitem">
@@ -182,7 +182,7 @@ template&lt;typename I&gt; </div>
 
 <p>Default constructor. Singular iterators are created. </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00339">339</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00342">342</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +222,7 @@ template&lt;typename I&gt; </div>
 
 <p>Constructor with begin and end. </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00342">342</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00345">345</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -264,7 +264,7 @@ template&lt;typename Distance &gt; </div>
 
 <p>Constructor with begin and length. </p>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00346">346</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00349">349</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
 </div>
 </div>
@@ -295,9 +295,9 @@ template&lt;typename I&gt; </div>
 <p>Get begin. </p>
 <dl class="section note"><dt>Note</dt><dd>There is no const-ness propagation. The const-ness of the original iterator I is maintained. </dd></dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00358">358</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00361">361</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="iterator_8h_source.html#l00837">apf::make_circular_iterator()</a>.</p>
+<p>Referenced by <a class="el" href="iterator_8h_source.html#l00840">apf::make_circular_iterator()</a>.</p>
 
 </div>
 </div>
@@ -327,9 +327,9 @@ template&lt;typename I&gt; </div>
 <p>Get end. </p>
 <dl class="section note"><dt>Note</dt><dd>There is no const-ness propagation. The const-ness of the original iterator I is maintained. </dd></dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00363">363</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00366">366</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="iterator_8h_source.html#l00837">apf::make_circular_iterator()</a>.</p>
+<p>Referenced by <a class="el" href="iterator_8h_source.html#l00840">apf::make_circular_iterator()</a>.</p>
 
 </div>
 </div>
@@ -360,9 +360,9 @@ template&lt;typename I&gt; </div>
 <p>Subscript operator. </p>
 <dl class="section note"><dt>Note</dt><dd>This only works if <code>I</code> is a random access iterator! </dd></dl>
 
-<p>Definition at line <a class="el" href="iterator_8h_source.html#l00367">367</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
+<p>Definition at line <a class="el" href="iterator_8h_source.html#l00370">370</a> of file <a class="el" href="iterator_8h_source.html">iterator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="iterator_8h_source.html#l01086">apf::stride_iterator&lt; channel_iterator &gt;::stride_iterator()</a>.</p>
+<p>Referenced by <a class="el" href="iterator_8h_source.html#l01089">apf::stride_iterator&lt; channel_iterator &gt;::stride_iterator()</a>.</p>
 
 </div>
 </div>

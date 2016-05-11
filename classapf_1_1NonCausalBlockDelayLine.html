@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -158,7 +158,7 @@ class apf::NonCausalBlockDelayLine&lt; T, Container &gt;</h3>
 <p>A block-based delay line where negative delay is possible. </p>
 <p>This is done by delaying everything by a given initial delay. The (absolute value of the) negative delay can be at most as large as the initial delay. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html" title="Block-based delay line. ">BlockDelayLine</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00218">218</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00224">224</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a41f94307e8260541c7dec51bfa167e7e"></a>
 <div class="memitem">
@@ -212,9 +212,9 @@ template&lt;typename T , typename Container  = std::vector&lt;T&gt;&gt; </div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html#a6412ee03e9fd04c41dde7bed0f48afbb" title="Constructor. ">BlockDelayLine::BlockDelayLine()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00233">233</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00239">239</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
-<p>References <a class="el" href="blockdelayline_8h_source.html#l00073">apf::BlockDelayLine&lt; T, Container &gt;::advance()</a>, <a class="el" href="blockdelayline_8h_source.html#l00195">apf::BlockDelayLine&lt; T, Container &gt;::get_write_pointer()</a>, and <a class="el" href="blockdelayline_8h_source.html#l00147">apf::BlockDelayLine&lt; T, Container &gt;::write_block()</a>.</p>
+<p>References <a class="el" href="blockdelayline_8h_source.html#l00077">apf::BlockDelayLine&lt; T, Container &gt;::advance()</a>, <a class="el" href="blockdelayline_8h_source.html#l00201">apf::BlockDelayLine&lt; T, Container &gt;::get_write_pointer()</a>, and <a class="el" href="blockdelayline_8h_source.html#l00152">apf::BlockDelayLine&lt; T, Container &gt;::write_block()</a>.</p>
 
 </div>
 </div>
@@ -321,7 +321,7 @@ template&lt;typename T , typename Container  = std::vector&lt;T&gt;&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> if <code>delay</code> is valid. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html#a9db278f4d974f7af7575341cbac27cff" title="Check if a given delay is valid. ">BlockDelayLine::delay_is_valid()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00260">260</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00266">266</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
 </div>
 </div>
@@ -352,9 +352,9 @@ template&lt;typename T , typename Container  = std::vector&lt;T&gt;&gt; </div>
 <p>Return <b>true</b> if <code>delay</code> is valid. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1NonCausalBlockDelayLine.html#a4d56640f27607153d6abeea2e5d7dbaa" title="Check if a given delay is valid. ">delay_is_valid()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00274">274</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00281">281</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
-<p>References <a class="el" href="blockdelayline_8h_source.html#l00058">apf::BlockDelayLine&lt; T, Container &gt;::delay_is_valid()</a>.</p>
+<p>References <a class="el" href="blockdelayline_8h_source.html#l00062">apf::BlockDelayLine&lt; T, Container &gt;::delay_is_valid()</a>.</p>
 
 </div>
 </div>
@@ -395,7 +395,7 @@ template&lt;typename Iterator &gt; </div>
 </div><div class="memdoc">
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html#afdcb760fb26d86ce76d87b5559635f48" title="Read a block of data from the delay line. ">BlockDelayLine::read_block()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00282">282</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00289">289</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ template&lt;typename Iterator &gt; </div>
 </div><div class="memdoc">
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html#afdcb760fb26d86ce76d87b5559635f48" title="Read a block of data from the delay line. ">BlockDelayLine::read_block()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00290">290</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00298">298</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
 </div>
 </div>
@@ -471,7 +471,7 @@ template&lt;typename T , typename Container  = std::vector&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classapf_1_1BlockDelayLine.html#a80029d20f8e5b004cd7a7ac6fb7a177f" title="Get the read circulator. ">BlockDelayLine::get_read_circulator()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00297">297</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
+<p>Definition at line <a class="el" href="blockdelayline_8h_source.html#l00306">306</a> of file <a class="el" href="blockdelayline_8h_source.html">blockdelayline.h</a>.</p>
 
 </div>
 </div>

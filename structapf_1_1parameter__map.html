@@ -24,7 +24,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Audio Processing Framework (APF)
-   &#160;<span id="projectnumber">version 0.2.1-12-g6c2f94c</span>
+   &#160;<span id="projectnumber">version 0.3.0</span>
    </div>
   </td>
  </tr>
@@ -144,7 +144,7 @@ Public Member Functions</h2></td></tr>
 <p>All values are saved as <code>std::string's</code>.</p>
 <p>Usage examples: </p><div class="fragment"><div class="line"><a class="code" href="structapf_1_1parameter__map.html">apf::parameter_map</a> params;</div><div class="line">params.<a class="code" href="structapf_1_1parameter__map.html#a132e349049eac29c79831e049ee90a39">set</a>(<span class="stringliteral">&quot;one&quot;</span>, <span class="stringliteral">&quot;first value&quot;</span>);</div><div class="line">params.<a class="code" href="structapf_1_1parameter__map.html#a132e349049eac29c79831e049ee90a39">set</a>(<span class="stringliteral">&quot;two&quot;</span>, 2);</div><div class="line">params.<a class="code" href="structapf_1_1parameter__map.html#a132e349049eac29c79831e049ee90a39">set</a>(<span class="stringliteral">&quot;three&quot;</span>, 3.1415);</div><div class="line">std::string val1, val5;</div><div class="line"><span class="keywordtype">int</span> val2, val3, val4;</div><div class="line">val1 = params[<span class="stringliteral">&quot;one&quot;</span>];</div><div class="line">val2 = params.<a class="code" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0">get</a>&lt;<span class="keywordtype">int</span>&gt;(<span class="stringliteral">&quot;two&quot;</span>);</div><div class="line">val3 = params.<a class="code" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0">get</a>&lt;<span class="keywordtype">int</span>&gt;(<span class="stringliteral">&quot;one&quot;</span>);  <span class="comment">// throws std::invalid_argument exception!</span></div><div class="line">val4 = params.<a class="code" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0">get</a>(<span class="stringliteral">&quot;one&quot;</span>, 42);  <span class="comment">// default value 42 if conversion fails</span></div><div class="line">                               <span class="comment">// template argument is deduced from 2nd arg</span></div><div class="line"><span class="keywordflow">if</span> (params.<a class="code" href="structapf_1_1parameter__map.html#a49c2b3348783ad02bdf1b28dcd195584">has_key</a>(<span class="stringliteral">&quot;four&quot;</span>))</div><div class="line">{</div><div class="line">  <span class="comment">// this is not done because there is no key named &quot;four&quot;:</span></div><div class="line">  do_something();</div><div class="line">}</div><div class="line">params[<span class="stringliteral">&quot;four&quot;</span>] = <span class="stringliteral">&quot;42&quot;</span>;  <span class="comment">// throws std::out_of_range exception!</span></div><div class="line">val5 = params[<span class="stringliteral">&quot;four&quot;</span>];  <span class="comment">// throws std::out_of_range exception!</span></div></div><!-- fragment --> <dl><dt><b>Examples: </b></dt><dd><a class="el" href="audiofile_simpleprocessor_8cpp-example.html#_a0">audiofile_simpleprocessor.cpp</a>, <a class="el" href="dummy_example_8cpp-example.html#_a2">dummy_example.cpp</a>, <a class="el" href="flext_simpleprocessor_8cpp-example.html#_a0">flext_simpleprocessor.cpp</a>, <a class="el" href="jack_simpleprocessor_8cpp-example.html#_a2">jack_simpleprocessor.cpp</a>, <a class="el" href="mex_simpleprocessor_8cpp-example.html#_a0">mex_simpleprocessor.cpp</a>, and <a class="el" href="simpleprocessor_8h-example.html#_a2">simpleprocessor.h</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00062">62</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00065">65</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a6f021e2fe831cde330e65b0e1367fed1"></a>
 <div class="memitem">
@@ -173,7 +173,7 @@ template&lt;typename... Args&gt; </div>
 <p>Constructor. </p>
 <p>All parameters are forwarded to the <code>std::map</code> constructor. </p>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00068">68</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00071">71</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
 </div>
 </div>
@@ -216,9 +216,9 @@ template&lt;typename... Args&gt; </div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="structapf_1_1parameter__map.html#a49c2b3348783ad02bdf1b28dcd195584" title="Check if a given parameter is available. ">has_key()</a>, <a class="el" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0" title="Get value converted to given type. ">get()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00079">79</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00082">82</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
-<p>Referenced by <a class="el" href="parameter__map_8h_source.html#l00181">get()</a>.</p>
+<p>Referenced by <a class="el" href="parameter__map_8h_source.html#l00184">get()</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ template&lt;typename... Args&gt; </div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="structapf_1_1parameter__map.html#a49c2b3348783ad02bdf1b28dcd195584" title="Check if a given parameter is available. ">has_key()</a>, <a class="el" href="structapf_1_1parameter__map.html#a132e349049eac29c79831e049ee90a39" title="Set value. ">set()</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00101">101</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00104">104</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
 </div>
 </div>
@@ -321,9 +321,9 @@ template&lt;typename T &gt; </div>
 <dl class="section user"><dt></dt><dd>To check the former, you can use <a class="el" href="structapf_1_1parameter__map.html#a49c2b3348783ad02bdf1b28dcd195584" title="Check if a given parameter is available. ">has_key()</a>, for the latter you have to get the value as string (with <a class="el" href="structapf_1_1parameter__map.html#a1aa071f6ac9a015498a8121e87d9bce9" title="&quot;Getter&quot;. ">operator[]()</a>) and convert it yourself (e.g. with <a class="el" href="namespaceapf_1_1str.html#a746ce8c5586c32b7d4d1cc317523d47a" title="Converter &quot;String to Anything&quot;. ">apf::str::S2A()</a>). Or you can use the throwing version of <a class="el" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0" title="Get value converted to given type. ">get&lt;T&gt;()</a>. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="simpleprocessor_8h-example.html#a4">simpleprocessor.h</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00130">130</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00133">133</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
-<p>Referenced by <a class="el" href="jack__policy_8h_source.html#l00069">apf::jack_policy::jack_policy()</a>.</p>
+<p>Referenced by <a class="el" href="jack__policy_8h_source.html#l00072">apf::jack_policy::jack_policy()</a>.</p>
 
 </div>
 </div>
@@ -378,7 +378,7 @@ template&lt;typename char_T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Value referenced by <code>k</code>, converted to a <code>std::basic_string&lt;char_T&gt;</code>. If the key <code>k</code> isn't available, or if the conversion failed, <code>def</code> is returned. </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Same warning as for the other <a class="el" href="structapf_1_1parameter__map.html#ac2303354bf360476c0907e62436087b0" title="Get value converted to given type. ">get()</a> version with default value. </dd></dl>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00169">169</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00172">172</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
 </div>
 </div>
@@ -427,9 +427,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00181">181</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00184">184</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
-<p>References <a class="el" href="parameter__map_8h_source.html#l00079">operator[]()</a>.</p>
+<p>References <a class="el" href="parameter__map_8h_source.html#l00082">operator[]()</a>.</p>
 
 </div>
 </div>
@@ -484,9 +484,9 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>const reference to the <code>std::string</code> representation of <code>v</code>. If "" is returned, the conversion failed (or <code>v</code> was "" originally). </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="audiofile_simpleprocessor_8cpp-example.html#a1">audiofile_simpleprocessor.cpp</a>, <a class="el" href="flext_simpleprocessor_8cpp-example.html#a1">flext_simpleprocessor.cpp</a>, and <a class="el" href="jack_simpleprocessor_8cpp-example.html#a3">jack_simpleprocessor.cpp</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00204">204</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00207">207</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
-<p>References <a class="el" href="stringtools_8h_source.html#l00049">apf::str::A2S()</a>.</p>
+<p>References <a class="el" href="stringtools_8h_source.html#l00052">apf::str::A2S()</a>.</p>
 
 </div>
 </div>
@@ -521,9 +521,9 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> if <code>k</code> is available </dd></dl>
 
-<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00213">213</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
+<p>Definition at line <a class="el" href="parameter__map_8h_source.html#l00216">216</a> of file <a class="el" href="parameter__map_8h_source.html">parameter_map.h</a>.</p>
 
-<p>Referenced by <a class="el" href="jack__policy_8h_source.html#l00069">apf::jack_policy::jack_policy()</a>.</p>
+<p>Referenced by <a class="el" href="jack__policy_8h_source.html#l00072">apf::jack_policy::jack_policy()</a>.</p>
 
 </div>
 </div>
