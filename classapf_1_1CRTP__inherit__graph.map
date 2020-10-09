@@ -1,6 +1,7 @@
 <map id="apf::CRTP&lt; Derived &gt;" name="apf::CRTP&lt; Derived &gt;">
-<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="Base class for CombineChannels*. " alt="" coords="208,5,393,47"/>
-<area shape="rect" id="node3" href="$classapf_1_1MimoProcessor.html" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor. " alt="" coords="231,71,370,112"/>
-<area shape="rect" id="node4" href="$classapf_1_1CombineChannelsBase.html" title="CombineChannelsBase\l\&lt; Derived, L, Out \&gt;" alt="" coords="221,136,380,177"/>
-<area shape="rect" id="node5" href="$classapf_1_1CombineChannelsCrossfadeBase.html" title="Base class for CombineChannelsCrossfade*. " alt="" coords="441,136,675,177"/>
+<area shape="rect" id="node1" title="Curiously Recurring Template Pattern (CRTP) base class." alt="" coords="5,78,171,105"/>
+<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="Base class for CombineChannels*." alt="" coords="219,5,419,47"/>
+<area shape="rect" id="node3" href="$classapf_1_1MimoProcessor.html" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor." alt="" coords="243,71,394,112"/>
+<area shape="rect" id="node4" href="$classapf_1_1CombineChannelsBase.html" title=" " alt="" coords="233,136,405,177"/>
+<area shape="rect" id="node5" href="$classapf_1_1CombineChannelsCrossfadeBase.html" title="Base class for CombineChannelsCrossfade*." alt="" coords="467,136,721,177"/>
 </map>

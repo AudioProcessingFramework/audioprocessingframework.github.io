@@ -1,3 +1,4 @@
 <map id="apf::CommandQueue" name="apf::CommandQueue">
-<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved). " alt="" coords="15,5,142,32"/>
+<area shape="rect" id="node1" title="Manage command queue from non&#45;realtime thread to realtime thread." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="16,5,153,32"/>
 </map>

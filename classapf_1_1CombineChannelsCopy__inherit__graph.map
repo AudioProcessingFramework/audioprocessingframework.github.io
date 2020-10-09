@@ -1,4 +1,5 @@
 <map id="apf::CombineChannelsCopy&lt; L, Out &gt;" name="apf::CombineChannelsCopy&lt; L, Out &gt;">
-<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="apf::CombineChannelsBase\l\&lt; CombineChannelsCopy\&lt;\l L, Out \&gt;, L, Out \&gt;" alt="" coords="15,95,200,151"/>
-<area shape="rect" id="node3" href="$classapf_1_1CRTP.html" title="apf::CRTP\&lt; CombineChannels\lCopy\&lt; L, Out \&gt; \&gt;" alt="" coords="5,5,209,47"/>
+<area shape="rect" id="node1" title="Combine channels: accumulate." alt="" coords="13,199,215,240"/>
+<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title=" " alt="" coords="14,95,214,151"/>
+<area shape="rect" id="node3" href="$classapf_1_1CRTP.html" title=" " alt="" coords="5,5,223,47"/>
 </map>

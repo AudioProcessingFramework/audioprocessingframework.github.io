@@ -1,3 +1,4 @@
 <map id="apf::LockFreeFifo&lt; T * &gt;" name="apf::LockFreeFifo&lt; T * &gt;">
-<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved). " alt="" coords="8,5,135,32"/>
+<area shape="rect" id="node1" title="Lock&#45;free first&#45;in&#45;first&#45;out (FIFO) queue." alt="" coords="5,80,148,121"/>
+<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="8,5,145,32"/>
 </map>

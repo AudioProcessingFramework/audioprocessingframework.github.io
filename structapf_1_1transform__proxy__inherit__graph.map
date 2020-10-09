@@ -1,3 +1,4 @@
 <map id="apf::transform_proxy&lt; F, Container &gt;" name="apf::transform_proxy&lt; F, Container &gt;">
-<area shape="rect" id="node2" href="$classapf_1_1iterator__proxy.html" title="apf::iterator_proxy\l\&lt; transform_iterator\l\&lt; Container::iterator,\l F \&gt;, Container \&gt;" alt="" coords="5,5,148,76"/>
+<area shape="rect" id="node1" title="Wrap a container and provide a transform_iterator instead of the normal one." alt="" coords="6,124,165,165"/>
+<area shape="rect" id="node2" href="$classapf_1_1iterator__proxy.html" title=" " alt="" coords="5,5,165,76"/>
 </map>

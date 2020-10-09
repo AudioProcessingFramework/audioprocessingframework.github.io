@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title="STL class. " alt="" coords="5,46,103,73"/>
-<area shape="rect" id="node2" href="$classapf_1_1fixed__list.html" title="Derived from std::list, but without re&#45;sizing. " alt="" coords="154,5,278,47"/>
-<area shape="rect" id="node3" href="$classapf_1_1fixed__list.html" title="apf::fixed_list\&lt; apf\l::conv::fft_node \&gt;" alt="" coords="151,71,281,112"/>
+<area shape="rect" id="node1" title="STL class." alt="" coords="5,46,113,73"/>
+<area shape="rect" id="node2" href="$classapf_1_1fixed__list.html" title="Derived from std::list, but without re&#45;sizing." alt="" coords="166,5,303,47"/>
+<area shape="rect" id="node3" href="$classapf_1_1fixed__list.html" title=" " alt="" coords="161,71,308,112"/>
 </map>

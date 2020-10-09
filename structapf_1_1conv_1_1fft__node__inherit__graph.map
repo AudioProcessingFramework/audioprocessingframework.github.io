@@ -1,3 +1,4 @@
 <map id="apf::conv::fft_node" name="apf::conv::fft_node">
-<area shape="rect" id="node2" href="$classapf_1_1fixed__vector.html" title="apf::fixed_vector\&lt;\l float, fftw_allocator\l\&lt; float \&gt; \&gt;" alt="" coords="5,5,143,61"/>
+<area shape="rect" id="node1" title="Two blocks of time&#45;domain or FFT (half&#45;complex) data." alt="" coords="11,109,154,136"/>
+<area shape="rect" id="node2" href="$classapf_1_1fixed__vector.html" title=" " alt="" coords="5,5,160,61"/>
 </map>

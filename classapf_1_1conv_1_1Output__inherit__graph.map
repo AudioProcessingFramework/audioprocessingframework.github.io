@@ -1,4 +1,5 @@
 <map id="apf::conv::Output" name="apf::conv::Output">
-<area shape="rect" id="node3" href="$structapf_1_1conv_1_1Convolver.html" title="Combination of Input and Output. " alt="" coords="11,155,153,181"/>
-<area shape="rect" id="node2" href="$classapf_1_1conv_1_1OutputBase.html" title="Base class for Output and StaticOutput. " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node1" title="Convolution engine (output part)." alt="" coords="21,80,155,107"/>
+<area shape="rect" id="node3" href="$structapf_1_1conv_1_1Convolver.html" title="Combination of Input and Output." alt="" coords="11,155,165,181"/>
+<area shape="rect" id="node2" href="$classapf_1_1conv_1_1OutputBase.html" title="Base class for Output and StaticOutput." alt="" coords="5,5,171,32"/>
 </map>

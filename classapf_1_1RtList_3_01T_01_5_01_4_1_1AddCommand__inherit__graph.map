@@ -1,4 +1,5 @@
 <map id="apf::RtList&lt; T * &gt;::AddCommand" name="apf::RtList&lt; T * &gt;::AddCommand">
-<area shape="rect" id="node2" href="$structapf_1_1CommandQueue_1_1Command.html" title="Abstract base class for realtime commands. " alt="" coords="5,80,160,121"/>
-<area shape="rect" id="node3" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved). " alt="" coords="19,5,146,32"/>
+<area shape="rect" id="node1" title="Command to add an element to a list." alt="" coords="21,169,157,211"/>
+<area shape="rect" id="node2" href="$structapf_1_1CommandQueue_1_1Command.html" title="Abstract base class for realtime commands." alt="" coords="5,80,172,121"/>
+<area shape="rect" id="node3" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="20,5,157,32"/>
 </map>

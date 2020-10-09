@@ -1,6 +1,7 @@
 <map id="apf::conv::OutputBase" name="apf::conv::OutputBase">
-<area shape="rect" id="node2" href="$classapf_1_1conv_1_1Output.html" title="Convolution engine (output part). " alt="" coords="21,80,143,107"/>
-<area shape="rect" id="node4" href="$classapf_1_1conv_1_1StaticOutput.html" title="Convolver output stage with static filter. " alt="" coords="177,80,334,107"/>
-<area shape="rect" id="node3" href="$structapf_1_1conv_1_1Convolver.html" title="Combination of Input and Output. " alt="" coords="5,155,148,181"/>
-<area shape="rect" id="node5" href="$structapf_1_1conv_1_1StaticConvolver.html" title="Combination of Input and StaticOutput. " alt="" coords="172,155,349,181"/>
+<area shape="rect" id="node1" title="Base class for Output and StaticOutput." alt="" coords="99,5,264,32"/>
+<area shape="rect" id="node2" href="$classapf_1_1conv_1_1Output.html" title="Convolution engine (output part)." alt="" coords="21,80,155,107"/>
+<area shape="rect" id="node4" href="$classapf_1_1conv_1_1StaticOutput.html" title="Convolver output stage with static filter." alt="" coords="189,80,360,107"/>
+<area shape="rect" id="node3" href="$structapf_1_1conv_1_1Convolver.html" title="Combination of Input and Output." alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node5" href="$structapf_1_1conv_1_1StaticConvolver.html" title="Combination of Input and StaticOutput." alt="" coords="184,155,376,181"/>
 </map>

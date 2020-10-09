@@ -1,6 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classapf_1_1CRTP.html" title="apf::CRTP\&lt; CombineChannels\lCrossfade\&lt; L, Out, Crossfade \&gt; \&gt;" alt="" coords="5,20,228,61"/>
-<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="apf::CombineChannelsBase\l\&lt; CombineChannelsCrossfade\l\&lt; L, Out, Crossfade \&gt;, L, Out \&gt;" alt="" coords="276,13,483,69"/>
-<area shape="rect" id="node3" href="$classapf_1_1CombineChannelsCrossfadeBase.html" title="apf::CombineChannelsCrossfade\lBase\&lt; CombineChannelsCrossfade\l\&lt; L, Out, Crossfade \&gt;, L, Out,\l Crossfade \&gt;" alt="" coords="531,5,761,76"/>
-<area shape="rect" id="node4" href="$classapf_1_1CombineChannelsCrossfade.html" title="Combine channels: transform, crossfade and accumulate. " alt="" coords="809,20,1024,61"/>
+<area shape="rect" id="node1" href="$classapf_1_1CRTP.html" title=" " alt="" coords="5,13,223,54"/>
+<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title=" " alt="" coords="271,5,471,61"/>
+<area shape="rect" id="node3" href="$classapf_1_1CombineChannelsCopy.html" title="Combine channels: accumulate." alt="" coords="519,13,720,54"/>
 </map>

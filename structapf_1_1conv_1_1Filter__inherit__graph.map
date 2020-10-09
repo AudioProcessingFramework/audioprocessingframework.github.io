@@ -1,3 +1,4 @@
 <map id="apf::conv::Filter" name="apf::conv::Filter">
-<area shape="rect" id="node2" href="$classapf_1_1fixed__vector.html" title="apf::fixed_vector\&lt;\l fft_node \&gt;" alt="" coords="5,5,132,47"/>
+<area shape="rect" id="node1" title="Container holding a number of FFT blocks." alt="" coords="16,95,137,121"/>
+<area shape="rect" id="node2" href="$classapf_1_1fixed__vector.html" title=" " alt="" coords="5,5,148,47"/>
 </map>

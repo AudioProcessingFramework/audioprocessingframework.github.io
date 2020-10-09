@@ -1,4 +1,5 @@
-<map id="apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;" name="apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;">
-<area shape="rect" id="node2" href="$classapf_1_1CRTP.html" title="Curiously Recurring Template Pattern (CRTP) base class. " alt="" coords="5,5,160,32"/>
-<area shape="rect" id="node3" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved). " alt="" coords="185,5,311,32"/>
+<map id="apf::MimoProcessor&lt; Derived, interface_policy, query_policy &gt;" name="apf::MimoProcessor&lt; Derived, interface_policy, query_policy &gt;">
+<area shape="rect" id="node1" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor." alt="" coords="89,80,263,136"/>
+<area shape="rect" id="node2" href="$classapf_1_1CRTP.html" title="Curiously Recurring Template Pattern (CRTP) base class." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node3" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="195,5,333,32"/>
 </map>

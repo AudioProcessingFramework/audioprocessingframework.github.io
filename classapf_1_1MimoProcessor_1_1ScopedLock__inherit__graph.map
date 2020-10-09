@@ -1,3 +1,4 @@
-<map id="apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::ScopedLock" name="apf::MimoProcessor&lt; Derived, interface_policy, thread_policy, query_policy &gt;::ScopedLock">
-<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved). " alt="" coords="37,5,164,32"/>
+<map id="apf::MimoProcessor&lt; Derived, interface_policy, query_policy &gt;::ScopedLock" name="apf::MimoProcessor&lt; Derived, interface_policy, query_policy &gt;::ScopedLock">
+<area shape="rect" id="node1" title="Lock is released when it goes out of scope." alt="" coords="5,80,164,151"/>
+<area shape="rect" id="node2" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="16,5,153,32"/>
 </map>

@@ -1,15 +1,15 @@
 <map id="apf::NonCopyable" name="apf::NonCopyable">
-<area shape="rect" id="node2" href="$classapf_1_1CommandQueue.html" title="Manage command queue from non&#45;realtime thread to realtime thread. " alt="" coords="202,51,349,78"/>
-<area shape="rect" id="node3" href="$structapf_1_1CommandQueue_1_1Command.html" title="Abstract base class for realtime commands. " alt="" coords="198,103,353,144"/>
-<area shape="rect" id="node8" href="$classapf_1_1LockFreeFifo_3_01T_01_5_01_4.html" title="Lock&#45;free first&#45;in&#45;first&#45;out (FIFO) queue. " alt="" coords="209,168,341,209"/>
-<area shape="rect" id="node9" href="$classapf_1_1MimoProcessor.html" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor. " alt="" coords="199,233,351,304"/>
-<area shape="rect" id="node10" href="$structapf_1_1MimoProcessor_1_1Item.html" title="Abstract base class for list items. " alt="" coords="199,328,351,399"/>
-<area shape="rect" id="node12" href="$classapf_1_1MimoProcessor_1_1ScopedLock.html" title="Lock is released when it goes out of scope. " alt="" coords="180,423,371,493"/>
-<area shape="rect" id="node13" href="$classapf_1_1posix__thread__policy_1_1Lock.html" title="Inner type Lock. " alt="" coords="194,517,357,559"/>
-<area shape="rect" id="node14" href="$classapf_1_1RtList_3_01T_01_5_01_4.html" title="A list for realtime access and non&#45;realtime modification. " alt="" coords="213,583,337,610"/>
-<area shape="rect" id="node4" href="$classapf_1_1CommandQueue_1_1WaitCommand.html" title="Dummy command to synchronize with non&#45;realtime thread. " alt="" coords="455,5,609,47"/>
-<area shape="rect" id="node5" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1AddCommand.html" title="Command to add an element to a list. " alt="" coords="470,71,594,112"/>
-<area shape="rect" id="node6" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1ClearCommand.html" title="Command to remove all elements from a list. " alt="" coords="470,136,594,177"/>
-<area shape="rect" id="node7" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1RemCommand.html" title="Command to remove an element from a list. " alt="" coords="470,201,594,243"/>
-<area shape="rect" id="node11" href="$structapf_1_1MimoProcessor_1_1ProcessItem.html" title="Base class for items which have a Process class. " alt="" coords="419,328,645,399"/>
+<area shape="rect" id="node1" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="5,249,143,275"/>
+<area shape="rect" id="node2" href="$classapf_1_1CommandQueue.html" title="Manage command queue from non&#45;realtime thread to realtime thread." alt="" coords="199,51,357,78"/>
+<area shape="rect" id="node3" href="$structapf_1_1CommandQueue_1_1Command.html" title="Abstract base class for realtime commands." alt="" coords="195,103,361,144"/>
+<area shape="rect" id="node8" href="$classapf_1_1LockFreeFifo_3_01T_01_5_01_4.html" title="Lock&#45;free first&#45;in&#45;first&#45;out (FIFO) queue." alt="" coords="207,168,349,209"/>
+<area shape="rect" id="node9" href="$classapf_1_1MimoProcessor.html" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor." alt="" coords="191,234,365,290"/>
+<area shape="rect" id="node10" href="$structapf_1_1MimoProcessor_1_1Item.html" title="Abstract base class for list items." alt="" coords="199,315,357,385"/>
+<area shape="rect" id="node12" href="$classapf_1_1MimoProcessor_1_1ScopedLock.html" title="Lock is released when it goes out of scope." alt="" coords="199,409,357,480"/>
+<area shape="rect" id="node13" href="$classapf_1_1RtList_3_01T_01_5_01_4.html" title="A list for realtime access and non&#45;realtime modification." alt="" coords="210,505,346,531"/>
+<area shape="rect" id="node4" href="$classapf_1_1CommandQueue_1_1WaitCommand.html" title="Dummy command to synchronize with non&#45;realtime thread." alt="" coords="413,5,580,47"/>
+<area shape="rect" id="node5" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1AddCommand.html" title="Command to add an element to a list." alt="" coords="429,71,565,112"/>
+<area shape="rect" id="node6" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1ClearCommand.html" title="Command to remove all elements from a list." alt="" coords="429,136,565,177"/>
+<area shape="rect" id="node7" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1RemCommand.html" title="Command to remove an element from a list." alt="" coords="429,201,565,243"/>
+<area shape="rect" id="node11" href="$structapf_1_1MimoProcessor_1_1ProcessItem.html" title="Base class for items which have a Process class." alt="" coords="415,315,579,385"/>
 </map>
