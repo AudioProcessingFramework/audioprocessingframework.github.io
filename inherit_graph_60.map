@@ -1,20 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classapf_1_1CRTP.html" title="Curiously Recurring Template Pattern (CRTP) base class." alt="" coords="5,78,171,105"/>
-<area shape="rect" id="node2" href="$classapf_1_1CombineChannelsBase.html" title="Base class for CombineChannels*." alt="" coords="219,5,421,47"/>
-<area shape="rect" id="node3" href="$classapf_1_1MimoProcessor.html" title="Multi&#45;threaded multiple&#45;input&#45;multiple&#45;output (MIMO) processor." alt="" coords="233,137,407,193"/>
-<area shape="rect" id="node4" href="$classapf_1_1CombineChannelsBase.html" title=" " alt="" coords="220,71,420,112"/>
-<area shape="rect" id="node5" href="$classapf_1_1CombineChannelsCrossfadeBase.html" title="Base class for CombineChannelsCrossfade*." alt="" coords="469,71,724,112"/>
-<area shape="rect" id="node6" href="$classapf_1_1CRTP.html" title=" " alt="" coords="259,639,381,666"/>
-<area shape="rect" id="node7" href="$structapf_1_1MimoProcessor_1_1ProcessItem.html" title="Base class for items which have a Process class." alt="" coords="515,508,679,579"/>
-<area shape="rect" id="node8" href="$classapf_1_1NonCopyable.html" title="Classes derived from this class cannot be copied (but still moved)." alt="" coords="19,341,157,367"/>
-<area shape="rect" id="node9" href="$classapf_1_1CommandQueue.html" title="Manage command queue from non&#45;realtime thread to realtime thread." alt="" coords="241,217,399,243"/>
-<area shape="rect" id="node10" href="$structapf_1_1CommandQueue_1_1Command.html" title="Abstract base class for realtime commands." alt="" coords="237,268,403,309"/>
-<area shape="rect" id="node15" href="$classapf_1_1LockFreeFifo_3_01T_01_5_01_4.html" title="Lock&#45;free first&#45;in&#45;first&#45;out (FIFO) queue." alt="" coords="249,333,391,375"/>
-<area shape="rect" id="node16" href="$structapf_1_1MimoProcessor_1_1Item.html" title="Abstract base class for list items." alt="" coords="241,399,399,469"/>
-<area shape="rect" id="node17" href="$classapf_1_1MimoProcessor_1_1ScopedLock.html" title="Lock is released when it goes out of scope." alt="" coords="241,493,399,564"/>
-<area shape="rect" id="node18" href="$classapf_1_1RtList_3_01T_01_5_01_4.html" title="A list for realtime access and non&#45;realtime modification." alt="" coords="252,589,388,615"/>
-<area shape="rect" id="node11" href="$classapf_1_1CommandQueue_1_1WaitCommand.html" title="Dummy command to synchronize with non&#45;realtime thread." alt="" coords="513,171,680,212"/>
-<area shape="rect" id="node12" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1AddCommand.html" title="Command to add an element to a list." alt="" coords="529,236,665,277"/>
-<area shape="rect" id="node13" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1ClearCommand.html" title="Command to remove all elements from a list." alt="" coords="529,301,665,343"/>
-<area shape="rect" id="node14" href="$classapf_1_1RtList_3_01T_01_5_01_4_1_1RemCommand.html" title="Command to remove an element from a list." alt="" coords="529,367,665,408"/>
+<area shape="rect" id="node1" href="$classapf_1_1raised__cosine__fade.html" title="Crossfade using a raised cosine." alt="" coords="5,5,144,47"/>
 </map>

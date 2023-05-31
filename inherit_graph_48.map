@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classapf_1_1iterator__proxy__const.html" title=" " alt="" coords="5,5,219,76"/>
-<area shape="rect" id="node2" href="$structapf_1_1cast__proxy__const.html" title="Encapsulate a container of base pointers (const version)." alt="" coords="267,20,429,61"/>
+<area shape="rect" id="node1" href="$classapf_1_1iterator__proxy__const.html" title=" " alt="" coords="5,5,197,76"/>
+<area shape="rect" id="node2" href="$structapf_1_1cast__proxy__const.html" title=" " alt="" coords="245,20,408,61"/>
+<area shape="rect" id="node3" href="$structapf_1_1MimoProcessor_1_1rtlist__proxy.html" title="Proxy class for accessing an RtList." alt="" coords="456,5,615,76"/>
 </map>
